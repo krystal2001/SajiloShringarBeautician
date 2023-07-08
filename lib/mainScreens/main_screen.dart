@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:sajiloshringar_app/tabpages/earning_tab.dart';
 import 'package:sajiloshringar_app/tabpages/home_tab.dart';
 import 'package:sajiloshringar_app/tabpages/profile_tab.dart';
-import 'package:sajiloshringar_app/tabpages/ratings_page.dart';
+//import 'package:sajiloshringar_app/tabpages/ratings_page.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({super.key});
@@ -38,7 +38,7 @@ class _MainScreenState extends State<MainScreen>
         children: const [
           HomeTabPage(),
           EarningsTabPage(),
-          RatingsTabPage(),
+          //RatingsTabPage(),
           UpdateProfileScreen(),
         ],
       ),
